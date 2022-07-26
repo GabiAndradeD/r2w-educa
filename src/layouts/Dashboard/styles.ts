@@ -7,13 +7,8 @@ export const Grid = styled.div<{ openSideBar: boolean }>`
     openSideBar ? '100% auto' : '0 100%'};
   grid-template-rows: 5rem auto;
   grid-template-areas:
-    'sidebar body'
-    'sidebar body';
-  @media only screen and (max-width: 671px) {
-    grid-template-areas:
-      'header header'
-      'sidebar body';
-  }
+    'sidebar sidebar'
+    'body body';
   height: 100vh;
 
   & > div:last-child {
@@ -23,9 +18,6 @@ export const Grid = styled.div<{ openSideBar: boolean }>`
 
     overflow: hidden auto;
 
-    ${T.breakPoint(75)} {
-      padding: 2rem 4rem 4rem 4rem;
-    }
   }
 
   ${T.breakPoint(42)} {

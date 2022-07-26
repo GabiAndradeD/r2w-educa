@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import * as S from 'styles'
+import * as C from 'components'
 import Dashboard from 'layouts/Dashboard'
 
 
