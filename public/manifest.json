@@ -11,6 +11,10 @@
     {
       "src": "/imgs/logo.png",
       "type": "image/png"
+    },
+    {
+      "src": "/imgs/background.png",
+      "type": "image/png"
     }
   ],
   "description": "R2W Educa"

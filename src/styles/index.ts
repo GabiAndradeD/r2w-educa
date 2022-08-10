@@ -1,5 +1,32 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
+import { BoxArrowInRight, Envelope, Lock } from '@styled-icons/bootstrap'
 import T from 'theme'
+
+export const Form = styled.form`
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  row-gap: 1.3rem;
+`
+export const stylesIcons = css`
+  width: 2rem;
+  min-width: 2rem;
+  height: 2rem;
+  min-height: 2rem;
+  color: #165AC1;
+`
+
+export const IconEmail = styled(Envelope)`
+  ${stylesIcons}
+`
+
+export const IconPassword = styled(Lock)`
+  ${stylesIcons}
+`
+
+export const IconSignIn = styled(BoxArrowInRight)`
+  ${stylesIcons}
+`
 
 export const ContainerInfoCard = styled(T.Row)`
   grid-area: InfoCard;
@@ -24,20 +51,12 @@ export const ContainerInfoCard = styled(T.Row)`
 `
 
 export const Container = styled(T.Col)`
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(4, min-content);
-  grid-template-areas:
-    'title title title title'
-    'InfoCard InfoCard InfoCard InfoCard'
-    'table table table table';
-  gap: 2rem;
-
-  ${T.breakPoint(75)} {
-    grid-template-areas:
-      'title title title title'
-      'InfoCard InfoCard InfoCard InfoCard'
-      'table table table table';
-    gap: 3rem;
-  }
+  width: 100vw;
+  height: calc(100vh - 60px);
+  background-image: url('/imgs/background.png');
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `
