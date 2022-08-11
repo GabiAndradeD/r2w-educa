@@ -6,7 +6,6 @@ export const Form = styled.form`
   display: flex;
   width: 100%;
   flex-direction: column;
-  row-gap: 1.3rem;
 `
 export const stylesIcons = css`
   width: 2rem;
@@ -14,6 +13,15 @@ export const stylesIcons = css`
   height: 2rem;
   min-height: 2rem;
   color: #165AC1;
+`
+
+export const inputLine = styled.div`
+ display: flex;
+ justify-content: space-between;
+`
+
+export const divider = styled.div`
+ width: 20px;
 `
 
 export const IconEmail = styled(Envelope)`
@@ -53,6 +61,7 @@ export const ContainerInfoCard = styled(T.Row)`
 export const Container = styled(T.Col)`
   width: 100vw;
   height: calc(100vh - 60px);
+  background-image: url('/imgs/background.png');
   background-position: center center;
   background-size: cover;
   display: flex;

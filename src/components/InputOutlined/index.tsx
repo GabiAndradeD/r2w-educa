@@ -42,7 +42,7 @@ const InputOutlined = ({
     if (icon && !changeVisibiltyPassword) {
       return '1.0rem 3.5rem 1.0rem 1.1rem'
     } else if (changeVisibiltyPassword) {
-      return '1rem 6.9rem 1rem 1.1rem'
+      return '1.0rem 3.5rem 1.0rem 1.1rem'
     } else {
       return '1.0rem 1.1rem'
     }
