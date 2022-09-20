@@ -1,5 +1,5 @@
 import { ReactNode } from 'react'
-import * as S from 'layouts/Dashboard/styles'
+import * as S from 'layouts/Common/styles'
 import { useTypedSelector } from 'store/configStore'
 import { ThemeProvider } from 'styled-components'
 import { dark } from 'theme/themeDark'

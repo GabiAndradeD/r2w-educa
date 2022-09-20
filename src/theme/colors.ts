@@ -45,7 +45,7 @@ export const colorSystem = {
   },
   grey: {
     l1: '#FAFAFA',
-    l2: '#F7FAFC',
+    l2: '#747C81',
     l3: '#EDF2F7',
     l4: '#E2E8F0',
     l5: '#CBD5E0',
@@ -58,185 +58,15 @@ export const colorSystem = {
 }
 
 export const colors = {
-  primary: css`
-    ${({ theme }) => theme.colors.primary}
-  `,
-
-  cardColor: css`
-    ${({ theme }) => theme.colors.cardColor}
-  `,
-
-  bgGray: css`
-    ${({ theme }) => theme.colors.bgGray}
-  `,
-
-  secondary: css`
-    ${({ theme }) => theme.colors.secondary}
-  `,
-
-  strongRed: css`
-    ${({ theme }) => theme.colors.strongRed}
-  `,
-
-  error: css`
-    ${({ theme }) => theme.colors.error}
-  `,
-
-  success: css`
-    ${({ theme }) => theme.colors.success}
-  `,
-
-  blue: css`
-    ${({ theme }) => theme.colors.blue}
-  `,
-
-  lightBlue: css`
-    ${({ theme }) => theme.colors.lightBlue}
-  `,
-
-  darkBlue: css`
-    ${({ theme }) => theme.colors.darkBlue}
-  `,
-
-  info: css`
-    ${({ theme }) => theme.colors.info}
-  `,
-
-  littleDarkFill: css`
-    ${({ theme }) => theme.colors.littleDarkFill}
-  `,
-
-  subtitle: css`
-    ${({ theme }) => theme.colors.subtitle}
-  `,
-
-  warn: css`
-    ${({ theme }) => theme.colors.warn}
-  `,
-
-  light: css`
-    ${({ theme }) => theme.colors.light}
+  mediumBlue: css`
+    ${({ theme }) => theme.colors.mediumBlue}
   `,
 
   white: css`
     ${({ theme }) => theme.colors.white}
   `,
 
-  bgDefault: css`
-    ${({ theme }) => theme.colors.bgDefault}
-  `,
-
-  bgAuthentication: css`
-    ${({ theme }) => theme.colors.bgAuthentication}
-  `,
-
-  disabled: css`
-    ${({ theme }) => theme.colors.disabled}
-  `,
-
-  overlay: css`
-    ${({ theme }) => theme.colors.overlay}
-  `,
-
-  dark: css`
-    ${({ theme }) => theme.colors.dark}
-  `,
-
   grey: css`
-    ${({ theme }) => theme.colors.grey}
-  `,
-
-  darkGrey: css`
-    ${({ theme }) => theme.colors.darkGrey}
-  `,
-
-  lightGrey: css`
-    ${({ theme }) => theme.colors.lightGrey}
-  `,
-
-  greySmooth: css`
-    ${({ theme }) => theme.colors.greySmooth}
-  `,
-
-  greyTransparent: css`
-    ${({ theme }) => theme.colors.greyTransparent}
-  `,
-
-  lightSmooth: css`
-    ${({ theme }) => theme.colors.lightSmooth}
-  `,
-
-  silverSmooth: css`
-    ${({ theme }) => theme.colors.silverSmooth}
-  `,
-
-  graphite: css`
-    ${({ theme }) => theme.colors.graphite}
-  `,
-
-  blackWhite: css`
-    ${({ theme }) => theme.colors.blackWhite}
-  `,
-
-  secondaryGreen: css`
-    ${({ theme }) => theme.colors.secondaryGreen}
-  `,
-
-  card: css`
-    ${({ theme }) => theme.colors.card}
-  `,
-
-  textBody: css`
-    ${({ theme }) => theme.colors.textBody}
-  `,
-
-  Authentication: css`
-    ${({ theme }) => theme.colors.Authentication}
-  `,
-
-  table1: css`
-    ${({ theme }) => theme.colors.table1}
-  `,
-
-  lightness: css`
-    ${({ theme }) => theme.colors.lightness}
-  `
-}
-
-export const gradients = {
-  bgGradient: css`
-    ${({ theme }) => theme.gradients.bgGradient}
-  `,
-
-  primary: css`
-    ${({ theme }) => theme.gradients.primary}
-  `,
-
-  red: css`
-    ${({ theme }) => theme.gradients.red}
-  `,
-
-  green: css`
-    ${({ theme }) => theme.gradients.green}
-  `,
-
-  talentingGreen: css`
-    ${({ theme }) => theme.gradients.talentingGreen}
-  `,
-
-  google: css`
-    ${({ theme }) => theme.gradients.google}
-  `,
-
-  facebook: css`
-    ${({ theme }) => theme.gradients.facebook}
-  `,
-
-  linkedin: css`
-    ${({ theme }) => theme.gradients.linkedin}
-  `,
-
-  infoCard: css`
-    ${({ theme }) => theme.gradients.infoCard}
+    ${({theme})=>theme.colors.grey}
   `
 }

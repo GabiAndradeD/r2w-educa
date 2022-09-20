@@ -15,7 +15,7 @@ export default class MyDocument extends Document {
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
           <meta
             name="description"
-            content="Este projeto consiste em um dashboard."
+            content="Este projeto consiste em uma plataforma de ensino online."
           />
           <meta name="keywords" content="dashboard, next, nextjs, react" />
           <meta name="copyright" content="© Empresa" />

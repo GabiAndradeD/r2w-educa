@@ -53,6 +53,7 @@ export const ContainerInfoCard = styled(T.Row)`
 export const Container = styled(T.Col)`
   width: 100vw;
   height: calc(100vh - 60px);
+  background-image: url('/imgs/background.png');
   background-position: center center;
   background-size: cover;
   display: flex;
