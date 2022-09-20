@@ -1,7 +1,7 @@
 import * as S from './style'
 import * as C from 'components'
 import Head from 'next/head'
-import Dashboard from 'layouts/Dashboard'
+import Common from 'layouts/Common'
 import { useForm } from 'react-hook-form'
 
 type Inputs = {
@@ -62,4 +62,4 @@ export default function Login() {
   )
 }
 
-Login.Layout = Dashboard
+Login.Layout = Common

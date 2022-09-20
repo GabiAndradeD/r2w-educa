@@ -3,6 +3,7 @@ import { css } from 'styled-components'
 export const dark = {
   colors: {
     mediumBlue: "#165AC1",
-    white: "#FFF"
+    white: "#FFF",
+    grey: "#747C81"
   },
 }

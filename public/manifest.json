@@ -15,6 +15,18 @@
     {
       "src": "/imgs/background.png",
       "type": "image/png"
+    },
+    {
+      "src": "/imgs/perfilTestIcon.svg",
+      "type": "image/svg"
+    },
+    {
+      "src": "/imgs/caracteristics/true.svg",
+      "type": "image/svg"
+    },
+    {
+      "src": "/imgs/caracteristics/false.svg",
+      "type": "image/svg"
     }
   ],
   "description": "R2W Educa"

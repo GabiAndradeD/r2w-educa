@@ -4,16 +4,16 @@ import { BtnProps } from '.'
 
 const SizesBtn = {
   xxSmall: css`
-    padding: 0.5rem 0.6rem;
+    padding: 1.5rem 1.6rem;
     font-size: ${T.text.p4};
   `,
   xSmall: css`
-    padding: 0 0.6rem;
+    padding: 1 1.6rem;
     font-size: ${T.text.p4};
   `,
   small: css`
     font-size: ${T.text.p4};
-    padding: 0.8rem;
+    padding: 0.3rem 2rem;
   `,
   medium: css`
     font-size: ${T.text.p4};
@@ -29,22 +29,6 @@ const SizesBtn = {
   `
 }
 
-const ColorsBtn = {
-  default: css`
-    background-color: #165AC1;
-    > span {
-      color: white !important;
-      font-weight: 500;
-    }
-    &:focus {
-      box-shadow: 0 0 0 0.2rem #5fe760, 0 0.1rem 1.5rem rgb(62 57 107 / 50%);
-    }
-    &:hover {
-      background-color: #165AC1;
-    }
-  `
-}
-
 export const Container = styled.button<BtnProps>`
   ${({
     fullWidth,
@@ -54,6 +38,7 @@ export const Container = styled.button<BtnProps>`
     fullBorderRadius,
   }) => css`
     cursor: pointer;
+    border: 0px;
     border-radius: ${fullBorderRadius ? '30rem' : '0.6rem'};
     font-weight: 400;
     display: inline-flex;
@@ -65,7 +50,14 @@ export const Container = styled.button<BtnProps>`
     background-repeat: no-repeat;
     transition: background-position-x 150ms ease-in-out;
     width: ${fullWidthMobile ? '100%' : 'fit-content'};
-    ${!!color && ColorsBtn[color]};
+    background-color: ${color};
+    > span {
+      color: white !important;
+      font-weight: 500;
+    }
+    &:hover {
+      background-color: ${T.colors.mediumBlue};
+    }
     ${!!size && SizesBtn[size]}
 
     ${T.breakPoint(35)} {

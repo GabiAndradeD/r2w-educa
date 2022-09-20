@@ -45,7 +45,7 @@ export const colorSystem = {
   },
   grey: {
     l1: '#FAFAFA',
-    l2: '#F7FAFC',
+    l2: '#747C81',
     l3: '#EDF2F7',
     l4: '#E2E8F0',
     l5: '#CBD5E0',
@@ -65,4 +65,8 @@ export const colors = {
   white: css`
     ${({ theme }) => theme.colors.white}
   `,
+
+  grey: css`
+    ${({theme})=>theme.colors.grey}
+  `
 }

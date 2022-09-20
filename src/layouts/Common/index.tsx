@@ -4,13 +4,13 @@ import { ThemeProvider } from 'styled-components'
 import { dark } from 'theme/themeDark'
 import { light } from 'theme/themeLight'
 import * as C from 'components'
-import * as S from 'layouts/Dashboard/styles'
+import * as S from 'layouts/Common/styles'
 
 export type DashboardProps = {
   children: ReactNode
 }
 
-const Dashboard = ({ children }: DashboardProps) => {
+const Common = ({ children }: DashboardProps) => {
   const { toggleBtnNav } = useTypedSelector(state => state.changeSideBar)
   const { changeTheme } = useTypedSelector(state => state)
 
@@ -27,4 +27,4 @@ const Dashboard = ({ children }: DashboardProps) => {
   )
 }
 
-export default Dashboard
+export default Common

@@ -8,15 +8,11 @@ export type SizeProps =
   | 'medium'
   | 'large'
   | 'xLarge'
-
-export type ColorProps =
-  | 'default'
-
 export interface BtnProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   icon?: ReactNode
   text?: string
   size?: SizeProps
-  color?: ColorProps
+  color?: string
   svgColor?: 'white' | 'blue' | 'error'
   fullBorderRadius?: boolean
   transparent?: boolean
