@@ -11,7 +11,6 @@ export const Container = styled(T.Col)`
 
   h1 {
     color: ${T.colors.grey};
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
@@ -22,7 +21,6 @@ export const Container = styled(T.Col)`
   h3 {
     color: ${T.colors.grey};
     margin-left: 60px;
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 32px;

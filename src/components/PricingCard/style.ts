@@ -29,7 +29,6 @@ export const CardContent = styled.div`
 
     h4{
         color: #002E74;
-        font-family: 'Inter';
         font-style: normal;
         font-weight: 700;
         font-size: 26px;

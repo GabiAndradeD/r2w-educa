@@ -58,6 +58,10 @@ export const colorSystem = {
 }
 
 export const colors = {
+  darkBlue: css`
+    ${({ theme }) => theme.colors.mediumBlue}
+  `,
+
   mediumBlue: css`
     ${({ theme }) => theme.colors.mediumBlue}
   `,
@@ -69,4 +73,5 @@ export const colors = {
   grey: css`
     ${({theme})=>theme.colors.grey}
   `
+
 }
