@@ -27,6 +27,10 @@
     {
       "src": "/imgs/caracteristics/false.svg",
       "type": "image/svg"
+    },
+    {
+      "src": "/imgs/categories/arrow.png",
+      "type": "image/png"
     }
   ],
   "description": "R2W Educa"

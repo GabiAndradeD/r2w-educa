@@ -1,4 +1,4 @@
-import { Fragment, useEffect } from 'react'
+import { Fragment } from 'react'
 import { Provider } from 'react-redux'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
@@ -26,7 +26,7 @@ export default function App({ Component, pageProps }: Props) {
                 name="viewport"
                 content="minimum-scale=1, initial-scale=1, width=device-width"
               />
-              <title>Dashboard - talent.ing</title>
+              <title>R2W Educa</title>
             </Head>
             <Component {...pageProps} />
             <GlobalStyles />
