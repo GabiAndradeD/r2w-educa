@@ -4,20 +4,12 @@ import Head from 'next/head'
 import Common from 'layouts/Common'
 import { useForm } from 'react-hook-form'
 
-type Inputs = {
-  email: string
-  password: string
-}
+// type Inputs = {
+//   email: string
+//   password: string
+// }
 
 export default function Login() {
-  const {
-    register,
-    handleSubmit,
-    trigger,
-    formState: { errors }
-  } = useForm<Inputs>({
-    mode: 'onChange'
-  })
 
   return (
     <>
@@ -33,18 +25,12 @@ export default function Login() {
               id="text"
               type="text"
               label="Primeiro Nome"
-              register={register('text')}
-              error={errors.text?.message}
-              onBlur={() => trigger('text')}
             />
 
             <C.InputOutlined
               id="text"
               type="text"
               label="Sobrenome"
-              register={register('text')}
-              error={errors.text?.message}
-              onBlur={() => trigger('text')}
             />
 
             <C.Button

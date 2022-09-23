@@ -20,7 +20,7 @@ const Common = ({ children }: DashboardProps) => {
       <S.Grid openSideBar={toggleBtnNav}>
         <C.SideBar/>
         <div id="divObserver">
-          <div style={{ maxWidth: '150rem', margin: 'auto' }}>{children}</div>
+          <div style={{ maxWidth: '150rem', margin: 'auto'}}>{children}</div>
         </div>
       </S.Grid>
     </ThemeProvider>

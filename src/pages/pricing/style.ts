@@ -3,11 +3,13 @@ import T from 'theme'
 
 export const Container = styled(T.Col)`
   width: 100vw;
-  height: calc(100vh - 60px);
+  height: 100vh;
   background-position: center center;
   background-size: cover;
   display: flex;
   align-items: center;
+  box-sizing: border-box;
+  padding-top: 60px;
 
   h1 {
     color: ${T.colors.grey};

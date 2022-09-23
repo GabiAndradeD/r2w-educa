@@ -1,4 +1,4 @@
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
 import T from 'theme'
 
 export const Container = styled.div`
@@ -13,6 +13,7 @@ export const Container = styled.div`
     justify-content: space-between;
     user-select: none;
     position: fixed;
+    z-index: 3;
 }`
 
 export const Logo = styled.img`

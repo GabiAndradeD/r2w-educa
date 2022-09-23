@@ -11,9 +11,20 @@ export default createGlobalStyle`
     list-style: none !important;
     outline: none;
     font-family: 'Inter', sans-serif;
+
+    &::-webkit-scrollbar {
+      width: 8px;
+    }
+  
+    &::-webkit-scrollbar-thumb {
+        background-color: rgba(116, 124, 129, 0.26);;
+        border-radius: 20px;
+        border: 1px solid white;
+    }
   }
 
   html {
     background-color: #F9FBFD;
+    overflow-x: hidden;
   }
 `

@@ -60,11 +60,13 @@ export const ContainerInfoCard = styled(T.Row)`
 
 export const Container = styled(T.Col)`
   width: 100vw;
-  height: calc(100vh - 60px);
+  height: 100vh;
   background-image: url('/imgs/background.png');
   background-position: center center;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
+  padding-top: 60px;
 `

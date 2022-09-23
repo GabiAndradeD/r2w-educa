@@ -2,7 +2,7 @@ import styled from "styled-components";
 import T from 'theme'
 
 export const Container = styled(T.Col)`
-  width: 20vw;
+  width: 100vw;
   height: calc(100vh - 60px);
   background-position: center center;
   background-size: cover;
@@ -29,7 +29,7 @@ export const Container = styled(T.Col)`
 `
 
 export const Content = styled.div`
-  width: 98vw;
+  width: 100vw;
   height: 100%;
   padding-left: 22vw;
   box-sizing: border-box;

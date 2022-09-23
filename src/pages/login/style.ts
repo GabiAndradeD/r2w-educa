@@ -2,6 +2,19 @@ import styled, { css } from 'styled-components'
 import { BoxArrowInRight, Envelope, Lock } from '@styled-icons/bootstrap'
 import T from 'theme'
 
+export const Container = styled(T.Col)`
+  width: 100vw;
+  height: 100vh;
+  background-image: url('/imgs/background.png');
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  padding-top: 60px;
+`
+
 export const Form = styled.form`
   display: flex;
   width: 100%;
@@ -48,15 +61,4 @@ export const ContainerInfoCard = styled(T.Row)`
   ${T.breakPoint(75)} {
     gap: 1.5rem;
   }
-`
-
-export const Container = styled(T.Col)`
-  width: 100vw;
-  height: calc(100vh - 60px);
-  background-image: url('/imgs/background.png');
-  background-position: center center;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 `

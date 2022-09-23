@@ -4,8 +4,8 @@ import * as S from 'components/InputOutlined/styles'
 export interface InputOutlinedProps
   extends InputHTMLAttributes<HTMLInputElement> {
   label: string
-  register: object
-  error: string | undefined
+  register?: object
+  error?: string | undefined
   onBlur?: () => void
   icon?: ReactNode
   control?: any
